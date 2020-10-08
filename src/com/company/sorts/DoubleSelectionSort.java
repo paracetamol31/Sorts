@@ -1,6 +1,6 @@
 package com.company.sorts;
 
-public class DoubleSelectionSort<T extends Comparable> {
+public class DoubleSelectionSort<T extends Comparable<T>> {
    public T[] sort(T[] array){
        int begin = 0;
        int end = array.length-1;
